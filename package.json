@@ -1,6 +1,6 @@
 {
     "name": "@plurnk/plurnk-mimetypes-grammar-lua",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Pre-built tree-sitter-lua WASM grammar for @plurnk/plurnk-mimetypes.",
     "type": "module",
     "license": "MIT",
@@ -31,6 +31,6 @@
     },
     "peerDependencies": {
         "@plurnk/plurnk-mimetypes": ">=0.11.0",
-        "web-tree-sitter": "^0.25.0"
+        "web-tree-sitter": "^0.25.0 || ^0.26.0"
     }
 }
