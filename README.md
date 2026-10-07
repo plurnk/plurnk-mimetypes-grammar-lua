@@ -1,6 +1,6 @@
 # @plurnk/plurnk-mimetypes-grammar-lua
 
-Pre-built `tree-sitter-lua` WASM grammar for the [@plurnk/plurnk-mimetypes](https://github.com/plurnk/plurnk-mimetypes) framework.
+Pre-built `tree-sitter-lua` WASM grammar for the [@plurnk/plurnk-mimetypes](https://github.com/plurnk/plurnk-service/tree/main/plurnk-mimetypes) framework.
 
 ## install
 
@@ -19,3 +19,8 @@ Declares only `web-tree-sitter` as a peer — no native `tree-sitter`, no node-g
 ## license
 
 MIT. The bundled `lua.wasm` is built from the upstream tree-sitter-lua grammar; see the pinned commit for that project's attribution.
+
+## Versioning
+
+This package versions independently. Compatibility is declared by its dependency
+ranges; a Plurnk release does not require a release of this package.
